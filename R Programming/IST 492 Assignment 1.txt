@@ -1,0 +1,133 @@
+#CS/IST 492 Assignment 1: Using R for programming
+#Name:
+#Due date: 2/15/19
+
+#1. Complete the following function. This function should compute xor(the result is true only when one of the inputs is true) and return the value.
+#
+#You are not permitted to use the built-in xor function R provides to complete this.
+#Parameters: bool1, bool2: Boolean values
+#
+#Return: The xor value of the input arguments.
+my_xor <- function(bool1= FALSE, bool2= FALSE) {
+  if(((!bool1)&bool2)|((bool1)&(!bool2))){
+    
+    return(TRUE)
+  }
+  
+  
+  return(FALSE)
+}
+
+  my_xor(TRUE, TRUE)
+  my_xor(FALSE, TRUE)
+  my_xor(TRUE, FALSE)
+  my_xor(FALSE, FALSE)
+
+
+#2. Using the xor function you've written in the previous step, implement the following functions which perform this operation over two input vectors, consisting of a number of boolean values.
+#Use both a standard loop syntax, as well as the lapply syntax
+#Parameters: vector_1 : a vector consisting of a number of boolean values
+#            vector_2 : a vector consisting of a number of boolean values
+#
+#Return: If the vectors are of different length: NULL
+#        Otherwise: A single vector containing the pair-wise xor truth value for both vectors
+#
+#Example: vector_1 <- [TRUE, TRUE, FALSE]
+#         vector_2 <- [TRUE, FALSE, FALSE]
+#         result: [FALSE, TRUE, FALSE]
+  
+  vector_1n <- c(TRUE, TRUE, FALSE)
+  vector_2n <- c(TRUE, FALSE, FALSE)
+       vec <- c()
+
+my_xor_vector_lapply <- function(vector1, vector2) {
+  
+  
+  vec1m <- length(vector1) 
+  vec2m <- length(vector2)
+  
+  if(vec1m==vec2m){
+  
+  lengthMax<-vec1m }else{
+    
+    
+    return(NULL)
+    
+  }
+  
+  for(i in 1:lengthMax){
+    vec<- c(vec, lapply(vector1[i], my_xor,  vector2[i]))
+   
+    
+  }
+return(vec)
+}
+
+
+
+
+
+my_xor_vector_loop <- function(vector1, vector2) {
+  
+
+
+  vec1m <- length(vector1) 
+  vec2m <- length(vector2)
+  
+  if(vec1m==vec2m){
+    
+    lengthMax<-vec1m }else{
+      
+      
+      return(NULL)
+      
+    }
+  
+  for(i in 1:lengthMax){
+    
+ vec<- c(vec, my_xor(vector1[i],  vector2[i]))
+    
+  
+  
+  
+  
+  
+  }
+  
+  
+  return(vec)
+}
+
+my_xor_vector_lapply(vector_2n, vector_1n)
+my_xor_vector_loop(vector_2n, vector_1n)
+
+vec
+
+
+
+
+
+
+#3. Using the following matrix, calculate the average/mean/standard deviation for every row and column and store the result into 2 variables named row_values and column_values respectively.
+#Then, print these variables to the console.
+data_mat <- matrix(c(20, 50, 45, 30, 45, 50, 15, 10, 5, 60, 40, 55), nrow = 4, ncol = 4)
+
+#4. Write a function that takes a single argument, a matrix, and, for every value, wherever there exists a 1, surround this value with 2's (above/below/left/right/and diagonals on the 2D space) 
+#and lastly, return this new, resulting matrix. DO NOT REPLACE A 1 WITH A 2, if a 1 exists in that location - simply ignore the replacement. 
+#If a position would also be out of bounds, ignore it. Test your function on the following matrix.
+encirclement <- matrix(c(0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1), nrow = 5, ncol = 5)
+  
+surround_ones <- function(data_matrix) {
+  
+}
+
+
+
+
+#5. (Bonus: 5 points towards the midterm exam) Implement Quicksort using a function that takes a single argument: a vector of numeric values. 
+#Include a print statement saying, "Swapping x and y" for the values x and y respectively whenever you modify the vector contents, by moving values around.
+#You can test it on the following vector.
+test_input <- c(5, 6, 3, 1, 9, 4, 2, 7, 8)
+quick_sort <- function(input_values) {
+  
+}
