@@ -192,9 +192,9 @@ surround_ones <- function(data_matrix) {
            
            
          }else{
-           
+           if(data_matrix[row, min]!= 1){
            data_matrix[row, min]= 2
-           
+           }
          }
           
           
@@ -209,13 +209,14 @@ surround_ones <- function(data_matrix) {
             
             
           }else{
-            
+            if(data_matrix[row, min]!= 1){
             data_matrix[row, min]= 2
+            }
             
           }
           
           
-          
+          #sets col+1
           min<- row-1
           
           if(min < 1){
@@ -251,6 +252,11 @@ surround_ones <- function(data_matrix) {
             {data_matrix[min,col ]= 2}
             
           }
+          
+          #Sets the diagonals
+          
+            
+          
           
           
           
