@@ -172,7 +172,7 @@ surround_ones <- function(data_matrix) {
   
   
   max <-length(data_matrix[1,])
-  
+  #print(max)
   
   for(i in 1:max ){
     for(row in 1:nrow(data_matrix)) {
@@ -181,7 +181,85 @@ surround_ones <- function(data_matrix) {
         
         if(data_matrix[row, col]==1){
           
-          print(row)
+          #set col-1 
+          min<- col-1
+          
+         if(min < 1){
+          
+          # print("out of bounds on col-1 ")
+            
+           # print(paste(row, col))
+           
+           
+         }else{
+           
+           data_matrix[row, min]= 2
+           
+         }
+          
+          
+          
+          #set col+1
+          min <- col+1 
+          if(min > max){
+            
+           # print("out of bounds on col+1 ")
+            
+            #print(paste(row, col))
+            
+            
+          }else{
+            
+            data_matrix[row, min]= 2
+            
+          }
+          
+          
+          
+          min<- row-1
+          
+          if(min < 1){
+            
+            print("out of bounds on row-1 ")
+            
+            print(paste(row, col))
+            
+            
+          }else{
+            
+            if(data_matrix[min,col] != 1){
+            
+            data_matrix[min, col]= 2}
+            
+          }
+          
+          
+          
+          #set col+1
+          min <- row+1 
+          if(min > max){
+            
+            print("out of bounds on Row+1 ")
+            
+            print(paste(row, col))
+            
+            
+          }else{
+          
+            
+            if(data_matrix[min,col] != 1)
+            {data_matrix[min,col ]= 2}
+            
+          }
+          
+          
+          
+          
+          
+          
+          
+          
+          
         }
         
       }
