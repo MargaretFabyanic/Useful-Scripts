@@ -45,27 +45,27 @@ help("vapply")
 my_xor_vector_mapply <- function(vector1, vector2) {
   
   
-#  vec1m <- length(vector1) 
- # vec2m <- length(vector2)
+  #  vec1m <- length(vector1) 
+  # vec2m <- length(vector2)
   
   #if(vec1m==vec2m){
-    
-    #lengthMax<-vec1m }else{
-      
-      
-      #return(NULL)
-      
-    #}
+  
+  #lengthMax<-vec1m }else{
+  
+  
+  #return(NULL)
+  
+  #}
   
   #for(i in 1:lengthMax){
-   # vec<-  vapply(vector1, my_xor,  vector2, logical(3))
-    
-   #}
-    
-    
-    vec<- mapply(my_xor, vector1,vector2)
-    
-    
+  # vec<-  vapply(vector1, my_xor,  vector2, logical(3))
+  
+  #}
+  
+  
+  vec<- mapply(my_xor, vector1,vector2)
+  
+  
   return(vec)
 }
 
@@ -184,18 +184,18 @@ surround_ones <- function(data_matrix) {
           #set col-1 
           min<- col-1
           
-         if(min < 1){
-          
-          # print("out of bounds on col-1 ")
+          if(min < 1){
             
-           # print(paste(row, col))
-           
-           
-         }else{
-           if(data_matrix[row, min]!= 1){
-           data_matrix[row, min]= 2
-           }
-         }
+            # print("out of bounds on col-1 ")
+            
+            # print(paste(row, col))
+            
+            
+          }else{
+            if(data_matrix[row, min]!= 1){
+              data_matrix[row, min]= 2
+            }
+          }
           
           
           
@@ -203,14 +203,14 @@ surround_ones <- function(data_matrix) {
           min <- col+1 
           if(min > max){
             
-           # print("out of bounds on col+1 ")
+            # print("out of bounds on col+1 ")
             
             #print(paste(row, col))
             
             
           }else{
             if(data_matrix[row, min]!= 1){
-            data_matrix[row, min]= 2
+              data_matrix[row, min]= 2
             }
             
           }
@@ -221,16 +221,14 @@ surround_ones <- function(data_matrix) {
           
           if(min < 1){
             
-            print("out of bounds on row-1 ")
             
-            print(paste(row, col))
             
             
           }else{
             
             if(data_matrix[min,col] != 1){
-            
-            data_matrix[min, col]= 2}
+              
+              data_matrix[min, col]= 2}
             
           }
           
@@ -240,28 +238,80 @@ surround_ones <- function(data_matrix) {
           min <- row+1 
           if(min > max){
             
-            print("out of bounds on Row+1 ")
-            
-            print(paste(row, col))
             
             
           }else{
-          
+            
             
             if(data_matrix[min,col] != 1)
             {data_matrix[min,col ]= 2}
             
           }
-          
+          #column is right
+          #row is left
           #Sets the diagonals
           
+          
+          right<- row+1
+          left<- col+1
+          if(!(right> max)&!(left>max)){
             
+            
+            if(data_matrix[right,left] != 1)
+            {data_matrix[right,left ]= 2}
+            
+          }else{#print("out of bounds on row-1 ")
+            
+            print(paste(row, col))
+          }
+          
+          
+          
+          
+          right<- row-1
+          left<- col+1
+          if(!(right< 1)&!(left>max)){
+            
+            
+            if(data_matrix[right,left] != 1)
+            {data_matrix[right,left ]= 2}
+            
+          }else{#print("out of bounds on row-1 ")
+            
+            print(paste(row, col))
+          }
           
           
           
           
           
+          right<- row-1
+          left<- col-1
+          if(!(right<1)&!(left<1)){
+            
+            
+            if(data_matrix[right,left] != 1)
+            {data_matrix[right,left ]= 2}
+            
+          }else{#print("out of bounds on row-1 ")
+            
+            print(paste(row, col))
+          }
           
+          
+          
+          right<- row+1
+          left<- col-1
+          if(!(right> max)&!(left<1)){
+            
+            
+            if(data_matrix[right,left] != 1)
+            {data_matrix[right,left ]= 2}
+            
+          }else{#print("out of bounds on row-1 ")
+            
+            print(paste(row, col))
+          }
           
           
           
@@ -284,7 +334,8 @@ surround_ones(encirclement)
 #5. (Bonus: 5 points towards the midterm exam) Implement Quicksort using a function that takes a single argument: a vector of numeric values. 
 #Include a print statement saying, "Swapping x and y" for the values x and y respectively whenever you modify the vector contents, by moving values around.
 #You can test it on the following vector.
-test_input <- c(5, 6, 3, 1, 9, 4, 2, 7, 8)
-quick_sort <- function(input_values) {
+#test_input <- c(5, 6, 3, 1, 9, 4, 2, 7, 8)
+#quick_sort <- function(input_values) {
   
-}
+#}
+
