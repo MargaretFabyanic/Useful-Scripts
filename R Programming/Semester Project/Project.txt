@@ -1,30 +1,29 @@
+
+
+#installing packages 
 install.packages(c("Rcpp", "readr"))
 install.packages("readr")
-
-
-
-potatoes<- data.frame(read_csv("Global_Landslide_Catalog_Export.csv"))
 library(readr)
-# Import my data
-library("readr")
-my_data <- read_tsv("http://www.sthda.com/upload/decathlon.txt")
-# View the first 6 rows and tge first 6 columns
-# syntax: my_data[row, column]
-my_data[1:6, 1:6]
 
-summary(potatoes)
-head(potatoes)
+#importing data into a data.frame called
+Landslides<- data.frame(read_csv("Global_Landslide_Catalog_Export.csv"))
 
-potatoes$landslide_size
-potatoes$landslide_trigger
-potatoes$event_date
-potatoes$location_accuracy
-potatoes$landslide_category
-potatoes$fatality_count
-potatoes$injury_count
-potatoes$country_name
-potatoes$admin_division_name
-potatoes$admin_division_population
-potatoes$gazeteer_closest_point
-potatoes$gazeteer_distance
-potatoes$event_date
+
+#Basic overview of my dataset
+summary(Landslides)
+head(Landslides)
+
+#Pulling out Columns needed    
+Landslides$landslide_size
+Landslides$landslide_trigger
+Landslides$event_date
+Landslides$location_accuracy
+Landslides$landslide_category
+Landslides$fatality_count
+Landslides$injury_count
+Landslides$country_name
+Landslides$admin_division_name
+Landslides$admin_division_population
+Landslides$gazeteer_closest_point
+Landslides$gazeteer_distance
+Landslides$event_date
