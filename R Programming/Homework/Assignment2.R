@@ -58,6 +58,22 @@ for(i in 1:(ncol(input_matrix)-1)){
     }
     
     
+    for(j in 1:length(Yvalues)){
+      
+      xy[1] = xy[1]+((Yvalues[j]-yMean)*(Xvalues[j]-xMean))
+      
+      
+      
+    }
+    
+   # sumxy= sum(xy)
+    
+    mmtuiple = SumX[1]*SumY[1]
+    bottom= sqrt(mmtuiple)
+    
+    r = xy[1]/ bottom
+    
+    print(r)
     
   }
   # start+1
