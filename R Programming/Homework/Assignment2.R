@@ -18,11 +18,59 @@ input_matrix <- matrix(c(1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1
 
 
 
+for(i in 1:(ncol(input_matrix)-1)){
+  
+  start =i+1
+  for(j in start:(ncol(input_matrix)))
+  {
+    
+    xMean=mean(input_matrix[,i])
+    yMean=mean(input_matrix[,j])
+    
+    xsd=sd(input_matrix[,i])
+    ysd=sd(input_matrix[,j])
+    value = 1/(ncol(input_matrix)-1)
+    Xvalues = input_matrix[,i]
+    Yvalues= input_matrix[,j]
+    
+    SumX=c(0.0,0.0,0.0,0.0,0.0)
+    SumY=c(0.0,0.0,0.0,0.0,0.0)
+    counter= 0
+    
+    xy = 0
+    for(meep1 in Xvalues ){
+      
+      
+      SumX[1] = SumX[1]+ ( (((meep1-xMean))) *((meep1-xMean))) 
+   
+      
+    }
+    
+    
+    for(meeps2 in Yvalues){
+      
+      
+      SumY[1] = SumY[1]+ ( (((meeps2-yMean))) *((meeps2-yMean))) 
+      
+      
+      
+      
+    }
+    
+    
+    
+  }
+  # start+1
+  
+}
+
+
+
 #Lastly, your function should return a vector containing all of the calculated coefficients, stored in the order they were printed to the console.
 calculate_correlation_coefficients <- function(input_matrix) {
-  start =2
   
-  help
+  
+  
   for(i in 1:(ncol(input_matrix)-1)){
     
     start =i+1
@@ -34,6 +82,10 @@ calculate_correlation_coefficients <- function(input_matrix) {
         xsd=sd(input_matrix[,i])
         ysd=sd(input_matrix[,j])
         value = 1/(ncol(input_matrix)-1)
+        Xvalues = input_matrix[,i]
+        Yvalues= input_matrix[,j]
+        
+      
     
 
     }
