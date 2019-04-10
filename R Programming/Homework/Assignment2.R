@@ -17,12 +17,13 @@ input_matrix <- matrix(c(1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1
 
 
 
-
+counter =1
 for(i in 1:(ncol(input_matrix)-1)){
   
   start =i+1
   for(j in start:(ncol(input_matrix)))
   {
+    
     
     xMean=mean(input_matrix[,i])
     yMean=mean(input_matrix[,j])
@@ -71,8 +72,8 @@ for(i in 1:(ncol(input_matrix)-1)){
     mmtuiple = SumX[1]*SumY[1]
     bottom= sqrt(mmtuiple)
     
-    r = xy[1]/ bottom
-    
+    r[counter] = xy[1]/ bottom
+    counter = counter+1
     print(r)
     
   }
@@ -85,7 +86,9 @@ for(i in 1:(ncol(input_matrix)-1)){
 #Lastly, your function should return a vector containing all of the calculated coefficients, stored in the order they were printed to the console.
 calculate_correlation_coefficients <- function(input_matrix) {
   
+  r= c()
   
+  counter= 1
   
   for(i in 1:(ncol(input_matrix)-1)){
     
@@ -135,14 +138,15 @@ calculate_correlation_coefficients <- function(input_matrix) {
         
       }
       
-      # sumxy= sum(xy)
+      
       
       mmtuiple = SumX[1]*SumY[1]
       bottom= sqrt(mmtuiple)
       
-      r = append(r, xy[1]/ bottom)
+      r= c( r, xy[1]/ bottom)
+      counter=+1
       
-      print(r)
+      
       
     }
     # start+1
