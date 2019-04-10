@@ -94,20 +94,61 @@ calculate_correlation_coefficients <- function(input_matrix) {
     {
       
       xMean=mean(input_matrix[,i])
-        ymean=mean(input_matrix[,j])
-        xsd=sd(input_matrix[,i])
-        ysd=sd(input_matrix[,j])
-        value = 1/(ncol(input_matrix)-1)
-        Xvalues = input_matrix[,i]
-        Yvalues= input_matrix[,j]
-        
+      yMean=mean(input_matrix[,j])
       
-    
-
+      xsd=sd(input_matrix[,i])
+      ysd=sd(input_matrix[,j])
+      value = 1/(ncol(input_matrix)-1)
+      Xvalues = input_matrix[,i]
+      Yvalues= input_matrix[,j]
+      
+      SumX=c(0.0,0.0,0.0,0.0,0.0)
+      SumY=c(0.0,0.0,0.0,0.0,0.0)
+      counter= 0
+      
+      xy = 0
+      for(meep1 in Xvalues ){
+        
+        
+        SumX[1] = SumX[1]+ ( (((meep1-xMean))) *((meep1-xMean))) 
+        
+        
+      }
+      
+      
+      for(meeps2 in Yvalues){
+        
+        
+        SumY[1] = SumY[1]+ ( (((meeps2-yMean))) *((meeps2-yMean))) 
+        
+        
+        
+        
+      }
+      
+      
+      for(j in 1:length(Yvalues)){
+        
+        xy[1] = xy[1]+((Yvalues[j]-yMean)*(Xvalues[j]-xMean))
+        
+        
+        
+      }
+      
+      # sumxy= sum(xy)
+      
+      mmtuiple = SumX[1]*SumY[1]
+      bottom= sqrt(mmtuiple)
+      
+      r = xy[1]/ bottom
+      
+      print(r)
+      
     }
     # start+1
     
   }
+  
   
   
   
