@@ -140,7 +140,7 @@ calculate_correlation_coefficients <- function(input_matrix) {
       mmtuiple = SumX[1]*SumY[1]
       bottom= sqrt(mmtuiple)
       
-      r = xy[1]/ bottom
+      r = append(r, xy[1]/ bottom)
       
       print(r)
       
@@ -150,13 +150,15 @@ calculate_correlation_coefficients <- function(input_matrix) {
   }
   
   
-  
+ return(r)
   
   
 }
 
 
-calculate_correlation_coefficients(input_matrix)
+r =calculate_correlation_coefficients(input_matrix)
+
+print(r)
 #2. Write a function that computes the Information Gain (or Kullbak-Leibler divergence) for a specified variable in a matrix/data frame
 #The function takes 3 parameters, the first being the matrix/df itself. The latter two specify the variables of interest, the first of which is the one you're trying to #find more information out about, the second of which you are provided to see how much information it can tell you about the first. Lastly, have this function return
 #the calculated value.
