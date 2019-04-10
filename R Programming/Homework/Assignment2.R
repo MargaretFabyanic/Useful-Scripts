@@ -22,12 +22,18 @@ input_matrix <- matrix(c(1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1
 calculate_correlation_coefficients <- function(input_matrix) {
   start =2
   
+  help
   for(i in 1:(ncol(input_matrix)-1)){
     
+    start =i+1
     for(j in start:(ncol(input_matrix)))
     {
       
-      print(i,j)
+      xMean=mean(input_matrix[,i])
+        ymean=mean(input_matrix[,j])
+        xsd=sd(input_matrix[,i])
+        ysd=sd(input_matrix[,j])
+        value = 1/(ncol(input_matrix)-1)
     
 
     }
