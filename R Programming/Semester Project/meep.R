@@ -29,37 +29,50 @@ Landslides$gazeteer_distance
 Landslides$event_date
 
 
-"meep"=="meep "
+#Gets ride of n/a Values
 cleanCountrcollection <- Landslides$country_name[!is.na(Landslides$country_name)]
-
 str(cleanCountrcollection)
-uniqueContryValues<-unique(cleanCountrcollection)
-uniqueContryValues
+#finds unique countries
+Countries<-unique(cleanCountrcollection)
+Countries
 
-#chinacount<- sum(Landslides$country_name==uniqueContryValues[1])
-countryCount<- c()
+
+LandSlideEvents<- c()
 
 counter =0
-for(j in 1:length(uniqueContryValues)){
+for(j in 1:length(Countries)){
   counter =0
   for(i in 1:length(cleanCountrcollection)){
   
   
-    if(uniqueContryValues[j]==cleanCountrcollection[i])
+    if(Countries[j]==cleanCountrcollection[i])
       counter=counter+1
       
     
   
   
   }
-  countryCount= c(countryCount, counter)
+  LandSlideEvents= c(LandSlideEvents, counter)
   
 }
-min(countryCount)
-max(countryCount)
+min(LandSlideEvents)
+max(LandSlideEvents)
 
 
-contrycounts<- data.frame(uniqueContryValues,countryCount)
+contrycounts<- data.frame(Countries,LandSlideEvents)
+
+sortedLandSlideEventss<- contrycounts[order(-contrycounts$LandSlideEvents),]
+install.packages(ggplot2)
+library(ggplot2)
+# Basic histogram
+ggplot(sortedLandSlideEventss, aes(x=LandSlideEvents)) + geom_histogram()
+#ggplot(sortedLandSlideEventss, aes(x= sortedLandSlideEventss$Countries,y=sortedLandSlideEventss$LandSlideEvents)) + geom_bar()
+
+top25Country<- sortedLandSlideEventss[1:25, ]
+
+ggplot(data=top25Country, aes(x= LandSlideEvents, y=Countries, col=LandSlideEvents )) +
+geom_count()
 
 
+#ggplot(data=top10Country, aes(x= LandSlideEvents, y=Countries, col=LandSlideEvents )) +geom_quantile()
 
