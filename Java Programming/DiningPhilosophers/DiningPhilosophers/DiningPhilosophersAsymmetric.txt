@@ -1,0 +1,447 @@
+2019/04/17 22:48:29
+2019/04/17 22:48:29
+Philosopher1 Thinking
+2019/04/17 22:48:29
+Philosopher4 Thinking
+2019/04/17 22:48:29
+Philosopher2 Thinking
+2019/04/17 22:48:29
+Philosopher5 Thinking
+Philosopher3 Thinking
+Philosopher2 Get left Chopstick
+Philosopher2 Get right Chopstick
+Philosopher2 eating
+Philosopher4 Get left Chopstick
+Philosopher2 putting down right chopstick 
+Philosopher3 Get left Chopstick
+Philosopher5 Get left Chopstick
+Philosopher4 Get right Chopstick
+Philosopher2 putting down left chopstick 
+Philosopher4 eating
+Philosopher4 putting down right chopstick 
+Philosopher5 Get right Chopstick
+2019/04/17 22:48:38
+Philosopher2 Thinking
+Philosopher5 eating
+Philosopher4 putting down left chopstick 
+Philosopher2 Get left Chopstick
+Philosopher3 Get right Chopstick
+2019/04/17 22:48:42
+Philosopher4 Thinking
+Philosopher5 putting down right chopstick 
+Philosopher5 putting down left chopstick 
+Philosopher3 eating
+Philosopher4 Get left Chopstick
+Philosopher3 putting down right chopstick 
+Philosopher1 Get left Chopstick
+2019/04/17 22:48:51
+Philosopher5 Thinking
+Philosopher3 putting down left chopstick 
+Philosopher4 Get right Chopstick
+Philosopher4 eating
+Philosopher2 Get right Chopstick
+2019/04/17 22:48:56
+Philosopher3 Thinking
+Philosopher4 putting down right chopstick 
+Philosopher4 putting down left chopstick 
+Philosopher2 eating
+2019/04/17 22:49:02
+Philosopher4 Thinking
+Philosopher2 putting down right chopstick 
+Philosopher3 Get left Chopstick
+Philosopher4 Get left Chopstick
+Philosopher2 putting down left chopstick 
+Philosopher4 Get right Chopstick
+Philosopher4 eating
+Philosopher1 Get right Chopstick
+2019/04/17 22:49:08
+Philosopher2 Thinking
+Philosopher1 eating
+Philosopher1 putting down right chopstick 
+Philosopher2 Get left Chopstick
+Philosopher1 putting down left chopstick 
+Philosopher4 putting down right chopstick 
+Philosopher4 putting down left chopstick 
+Philosopher5 Get left Chopstick
+2019/04/17 22:49:13
+Philosopher1 Thinking
+Philosopher5 Get right Chopstick
+Philosopher3 Get right Chopstick
+2019/04/17 22:49:17
+Philosopher4 Thinking
+Philosopher5 eating
+Philosopher3 eating
+Philosopher3 putting down right chopstick 
+Philosopher4 Get left Chopstick
+Philosopher3 putting down left chopstick 
+Philosopher5 putting down right chopstick 
+Philosopher4 Get right Chopstick
+Philosopher2 Get right Chopstick
+2019/04/17 22:49:24
+Philosopher3 Thinking
+Philosopher5 putting down left chopstick 
+Philosopher2 eating
+Philosopher4 eating
+Philosopher3 Get left Chopstick
+Philosopher2 putting down right chopstick 
+Philosopher1 Get left Chopstick
+2019/04/17 22:49:28
+Philosopher5 Thinking
+Philosopher4 putting down right chopstick 
+Philosopher4 putting down left chopstick 
+Philosopher2 putting down left chopstick 
+Philosopher1 Get right Chopstick
+2019/04/17 22:49:34
+Philosopher2 Thinking
+Philosopher3 Get right Chopstick
+2019/04/17 22:49:36
+Philosopher4 Thinking
+Philosopher3 eating
+Philosopher1 eating
+Philosopher3 putting down right chopstick 
+Philosopher3 putting down left chopstick 
+Philosopher1 putting down right chopstick 
+Philosopher2 Get left Chopstick
+Philosopher4 Get left Chopstick
+Philosopher1 putting down left chopstick 
+Philosopher4 Get right Chopstick
+Philosopher5 Get left Chopstick
+2019/04/17 22:49:42
+Philosopher1 Thinking
+Philosopher4 eating
+Philosopher2 Get right Chopstick
+2019/04/17 22:49:43
+Philosopher3 Thinking
+Philosopher4 putting down right chopstick 
+Philosopher5 Get right Chopstick
+Philosopher2 eating
+Philosopher2 putting down right chopstick 
+Philosopher5 eating
+Philosopher5 putting down right chopstick 
+Philosopher2 putting down left chopstick 
+Philosopher3 Get left Chopstick
+Philosopher4 putting down left chopstick 
+2019/04/17 22:49:47
+Philosopher4 Thinking
+Philosopher3 Get right Chopstick
+2019/04/17 22:49:48
+Philosopher2 Thinking
+Philosopher5 putting down left chopstick 
+Philosopher2 Get left Chopstick
+Philosopher3 eating
+Philosopher3 putting down right chopstick 
+Philosopher4 Get left Chopstick
+Philosopher1 Get left Chopstick
+2019/04/17 22:49:53
+Philosopher5 Thinking
+Philosopher4 Get right Chopstick
+Philosopher4 eating
+Philosopher3 putting down left chopstick 
+Philosopher2 Get right Chopstick
+2019/04/17 22:49:57
+Philosopher3 Thinking
+Philosopher2 eating
+Philosopher2 putting down right chopstick 
+Philosopher3 Get left Chopstick
+Philosopher4 putting down right chopstick 
+Philosopher2 putting down left chopstick 
+Philosopher4 putting down left chopstick 
+Philosopher3 Get right Chopstick
+2019/04/17 22:50:04
+Philosopher4 Thinking
+Philosopher1 Get right Chopstick
+2019/04/17 22:50:05
+Philosopher2 Thinking
+Philosopher3 eating
+Philosopher3 putting down right chopstick 
+Philosopher4 Get left Chopstick
+Philosopher1 eating
+Philosopher1 putting down right chopstick 
+Philosopher2 Get left Chopstick
+Philosopher4 Get right Chopstick
+Philosopher1 putting down left chopstick 
+Philosopher3 putting down left chopstick 
+Philosopher5 Get left Chopstick
+2019/04/17 22:50:14
+Philosopher1 Thinking
+2019/04/17 22:50:15
+Philosopher3 Thinking
+Philosopher2 Get right Chopstick
+Philosopher4 eating
+Philosopher4 putting down right chopstick 
+Philosopher5 Get right Chopstick
+Philosopher2 eating
+Philosopher5 eating
+Philosopher5 putting down right chopstick 
+Philosopher4 putting down left chopstick 
+Philosopher3 Get left Chopstick
+Philosopher2 putting down right chopstick 
+Philosopher2 putting down left chopstick 
+Philosopher5 putting down left chopstick 
+2019/04/17 22:50:24
+Philosopher2 Thinking
+2019/04/17 22:50:24
+Philosopher4 Thinking
+Philosopher3 Get right Chopstick
+Philosopher1 Get left Chopstick
+2019/04/17 22:50:25
+Philosopher5 Thinking
+Philosopher3 eating
+Philosopher2 Get left Chopstick
+Philosopher3 putting down right chopstick 
+Philosopher4 Get left Chopstick
+Philosopher3 putting down left chopstick 
+Philosopher4 Get right Chopstick
+Philosopher4 eating
+Philosopher2 Get right Chopstick
+2019/04/17 22:50:35
+Philosopher3 Thinking
+Philosopher4 putting down right chopstick 
+Philosopher2 eating
+Philosopher4 putting down left chopstick 
+2019/04/17 22:50:40
+Philosopher4 Thinking
+Philosopher3 Get left Chopstick
+Philosopher2 putting down right chopstick 
+Philosopher4 Get left Chopstick
+Philosopher2 putting down left chopstick 
+Philosopher1 Get right Chopstick
+2019/04/17 22:50:46
+Philosopher2 Thinking
+Philosopher4 Get right Chopstick
+Philosopher4 eating
+Philosopher1 eating
+Philosopher1 putting down right chopstick 
+Philosopher2 Get left Chopstick
+Philosopher1 putting down left chopstick 
+Philosopher4 putting down right chopstick 
+Philosopher4 putting down left chopstick 
+Philosopher5 Get left Chopstick
+2019/04/17 22:50:58
+Philosopher1 Thinking
+Philosopher5 Get right Chopstick
+Philosopher3 Get right Chopstick
+2019/04/17 22:51:00
+Philosopher4 Thinking
+Philosopher3 eating
+Philosopher5 eating
+Philosopher4 Get left Chopstick
+Philosopher3 putting down right chopstick 
+Philosopher5 putting down right chopstick 
+Philosopher5 putting down left chopstick 
+Philosopher4 Get right Chopstick
+Philosopher4 eating
+Philosopher3 putting down left chopstick 
+Philosopher2 Get right Chopstick
+2019/04/17 22:51:10
+Philosopher3 Thinking
+Philosopher1 Get left Chopstick
+2019/04/17 22:51:12
+Philosopher5 Thinking
+Philosopher4 putting down right chopstick 
+Philosopher2 eating
+Philosopher2 putting down right chopstick 
+Philosopher3 Get left Chopstick
+Philosopher2 putting down left chopstick 
+Philosopher4 putting down left chopstick 
+Philosopher1 Get right Chopstick
+2019/04/17 22:51:18
+Philosopher2 Thinking
+Philosopher3 Get right Chopstick
+2019/04/17 22:51:19
+Philosopher4 Thinking
+Philosopher3 eating
+Philosopher3 putting down right chopstick 
+Philosopher4 Get left Chopstick
+Philosopher1 eating
+Philosopher4 Get right Chopstick
+Philosopher1 putting down right chopstick 
+Philosopher2 Get left Chopstick
+Philosopher3 putting down left chopstick 
+Philosopher4 eating
+Philosopher4 putting down right chopstick 
+Philosopher1 putting down left chopstick 
+Philosopher2 Get right Chopstick
+2019/04/17 22:51:29
+Philosopher3 Thinking
+Philosopher4 putting down left chopstick 
+Philosopher5 Get left Chopstick
+2019/04/17 22:51:30
+Philosopher1 Thinking
+Philosopher2 eating
+2019/04/17 22:51:33
+Philosopher4 Thinking
+Philosopher2 putting down right chopstick 
+Philosopher3 Get left Chopstick
+Philosopher3 Get right Chopstick
+Philosopher3 eating
+Philosopher5 Get right Chopstick
+Philosopher2 putting down left chopstick 
+2019/04/17 22:51:38
+Philosopher2 Thinking
+Philosopher3 putting down right chopstick 
+Philosopher4 Get left Chopstick
+Philosopher5 eating
+Philosopher2 Get left Chopstick
+Philosopher5 putting down right chopstick 
+Philosopher4 Get right Chopstick
+Philosopher3 putting down left chopstick 
+Philosopher4 eating
+Philosopher5 putting down left chopstick 
+Philosopher1 Get left Chopstick
+2019/04/17 22:51:48
+Philosopher5 Thinking
+Philosopher4 putting down right chopstick 
+Philosopher2 Get right Chopstick
+2019/04/17 22:51:48
+Philosopher3 Thinking
+Philosopher4 putting down left chopstick 
+Philosopher2 eating
+Philosopher2 putting down right chopstick 
+Philosopher3 Get left Chopstick
+2019/04/17 22:51:56
+Philosopher4 Thinking
+Philosopher3 Get right Chopstick
+Philosopher3 eating
+Philosopher2 putting down left chopstick 
+Philosopher3 putting down right chopstick 
+Philosopher4 Get left Chopstick
+Philosopher1 Get right Chopstick
+2019/04/17 22:52:03
+Philosopher2 Thinking
+Philosopher4 Get right Chopstick
+Philosopher1 eating
+Philosopher3 putting down left chopstick 
+Philosopher4 eating
+Philosopher1 putting down right chopstick 
+Philosopher2 Get left Chopstick
+2019/04/17 22:52:08
+Philosopher3 Thinking
+Philosopher1 putting down left chopstick 
+Philosopher4 putting down right chopstick 
+Philosopher2 Get right Chopstick
+Philosopher5 Get left Chopstick
+2019/04/17 22:52:12
+Philosopher1 Thinking
+Philosopher2 eating
+Philosopher4 putting down left chopstick 
+2019/04/17 22:52:14
+Philosopher4 Thinking
+Philosopher5 Get right Chopstick
+Philosopher5 eating
+Philosopher4 Get left Chopstick
+Philosopher2 putting down right chopstick 
+Philosopher3 Get left Chopstick
+Philosopher2 putting down left chopstick 
+Philosopher5 putting down right chopstick 
+Philosopher4 Get right Chopstick
+2019/04/17 22:52:21
+Philosopher2 Thinking
+Philosopher2 Get left Chopstick
+Philosopher5 putting down left chopstick 
+Philosopher4 eating
+Philosopher4 putting down right chopstick 
+Philosopher4 putting down left chopstick 
+Philosopher1 Get left Chopstick
+2019/04/17 22:52:27
+Philosopher5 Thinking
+Philosopher3 Get right Chopstick
+2019/04/17 22:52:30
+Philosopher4 Thinking
+Philosopher3 eating
+Philosopher3 putting down right chopstick 
+Philosopher4 Get left Chopstick
+Philosopher4 Get right Chopstick
+Philosopher3 putting down left chopstick 
+Philosopher4 eating
+Philosopher2 Get right Chopstick
+2019/04/17 22:52:42
+Philosopher3 Thinking
+Philosopher2 eating
+Philosopher4 putting down right chopstick 
+Philosopher4 putting down left chopstick 
+Philosopher2 putting down right chopstick 
+Philosopher3 Get left Chopstick
+2019/04/17 22:52:51
+Philosopher4 Thinking
+Philosopher3 Get right Chopstick
+Philosopher2 putting down left chopstick 
+Philosopher3 eating
+Philosopher1 Get right Chopstick
+2019/04/17 22:52:55
+Philosopher2 Thinking
+Philosopher3 putting down right chopstick 
+Philosopher4 Get left Chopstick
+Philosopher4 Get right Chopstick
+Philosopher1 eating
+Philosopher4 eating
+Philosopher1 putting down right chopstick 
+Philosopher2 Get left Chopstick
+Philosopher3 putting down left chopstick 
+Philosopher4 putting down right chopstick 
+Philosopher1 putting down left chopstick 
+Philosopher4 putting down left chopstick 
+Philosopher2 Get right Chopstick
+2019/04/17 22:53:05
+Philosopher3 Thinking
+Philosopher5 Get left Chopstick
+2019/04/17 22:53:06
+Philosopher1 Thinking
+2019/04/17 22:53:06
+Philosopher4 Thinking
+Philosopher5 Get right Chopstick
+Philosopher2 eating
+Philosopher4 Get left Chopstick
+Philosopher5 eating
+Philosopher2 putting down right chopstick 
+Philosopher3 Get left Chopstick
+Philosopher5 putting down right chopstick 
+Philosopher4 Get right Chopstick
+Philosopher5 putting down left chopstick 
+Philosopher2 putting down left chopstick 
+2019/04/17 22:53:16
+Philosopher2 Thinking
+Philosopher1 Get left Chopstick
+2019/04/17 22:53:18
+Philosopher5 Thinking
+Philosopher4 eating
+Philosopher2 Get left Chopstick
+Philosopher4 putting down right chopstick 
+Philosopher4 putting down left chopstick 
+Philosopher3 Get right Chopstick
+2019/04/17 22:53:31
+Philosopher4 Thinking
+Philosopher3 eating
+Philosopher3 putting down right chopstick 
+Philosopher4 Get left Chopstick
+Philosopher3 putting down left chopstick 
+Philosopher2 Get right Chopstick
+2019/04/17 22:53:37
+Philosopher3 Thinking
+Philosopher4 Get right Chopstick
+Philosopher4 eating
+Philosopher2 eating
+Philosopher4 putting down right chopstick 
+Philosopher4 putting down left chopstick 
+Philosopher2 putting down right chopstick 
+Philosopher3 Get left Chopstick
+Philosopher2 putting down left chopstick 
+2019/04/17 22:53:43
+Philosopher4 Thinking
+Philosopher4 Get left Chopstick
+Philosopher1 Get right Chopstick
+2019/04/17 22:53:46
+Philosopher2 Thinking
+Philosopher1 eating
+Philosopher4 Get right Chopstick
+Philosopher1 putting down right chopstick 
+Philosopher2 Get left Chopstick
+Philosopher1 putting down left chopstick 
+Philosopher4 eating
+Philosopher5 Get left Chopstick
+2019/04/17 22:53:54
+Philosopher1 Thinking
+Philosopher4 putting down right chopstick 
+Philosopher5 Get right Chopstick
+Philosopher5 eating
+Philosopher4 putting down left chopstick 

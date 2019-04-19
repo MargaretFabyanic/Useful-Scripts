@@ -1,0 +1,10 @@
+Philosopher1 Thinking
+Philosopher2 Thinking
+Philosopher4 Thinking
+Philosopher3 Thinking
+Philosopher5 Thinking
+Philosopher3 Get left Chopstick
+Philosopher4 Get left Chopstick
+Philosopher5 Get left Chopstick
+Philosopher2 Get left Chopstick
+Philosopher1 Get left Chopstick
