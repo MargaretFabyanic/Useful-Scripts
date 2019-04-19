@@ -29,6 +29,37 @@ Landslides$gazeteer_distance
 Landslides$event_date
 
 
+"meep"=="meep "
+cleanCountrcollection <- Landslides$country_name[!is.na(Landslides$country_name)]
+
+str(cleanCountrcollection)
+uniqueContryValues<-unique(cleanCountrcollection)
+uniqueContryValues
+
+#chinacount<- sum(Landslides$country_name==uniqueContryValues[1])
+countryCount<- c()
+
+counter =0
+for(j in 1:length(uniqueContryValues)){
+  counter =0
+  for(i in 1:length(cleanCountrcollection)){
+  
+  
+    if(uniqueContryValues[j]==cleanCountrcollection[i])
+      counter=counter+1
+      
+    
+  
+  
+  }
+  countryCount= c(countryCount, counter)
+  
+}
+min(countryCount)
+max(countryCount)
+
+
+contrycounts<- data.frame(uniqueContryValues,countryCount)
 
 
 
