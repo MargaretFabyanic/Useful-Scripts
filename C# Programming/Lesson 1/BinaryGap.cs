@@ -24,7 +24,7 @@ namespace Lesson1
             
             
             
-        public static int solution(int n)
+        private static int solution(int n)
         {
 
            int arraySize = getSizeOfArray(n);
@@ -65,7 +65,7 @@ namespace Lesson1
         }
 
                 
-        static int getSizeOfArray (int n) 
+        private static int getSizeOfArray (int n) 
         {
 
             for( int i =0; ; i++)
